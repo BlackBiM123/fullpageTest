@@ -36,12 +36,11 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-	 'fullpage-nuxt-module',
+	  //'fullpage-nuxt-module',
 	 'nuxt-fullpage.js',
   ],
 	axios: {
 		baseURL: process.env.BASE_URL || 'http://localhost:3000'
-		//baseURL: ' https://boulder-new.ru'
 	},
   /*
   ** Build configuration
